@@ -1,0 +1,45 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.burger{
+    background-image: url(./..//icons/menu-open.svg);
+    background-repeat: repeat;
+    width: 34px;
+    height: 29px;
+    margin-left: 15px;
+}
+.logo{
+    display: block;
+    background-image: url(./../image/Логотип\ 1.svg);
+    background-repeat: repeat;
+    width: 135px;
+    height: 75px;
+}
+.lang{
+    width:98px ;
+    height:98px ;
+    background-color: red;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    line-height: 98px;
+}
+
+
+@media screen and (min-width:768px) {
+    .logo{
+        margin-right: auto;
+        margin-left: 56px;
+    }
+}
+@media screen and (min-width:1200px) {
+    .burger{
+        display: none;
+    }
+    
+}
