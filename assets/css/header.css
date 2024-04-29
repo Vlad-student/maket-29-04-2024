@@ -29,7 +29,9 @@
     font-weight: bold;
     line-height: 98px;
 }
-
+.menu{
+    display: none;
+}
 
 @media screen and (min-width:768px) {
     .logo{
@@ -41,5 +43,12 @@
     .burger{
         display: none;
     }
-    
+    .menu{
+        display: flex;
+        list-style: none;
+    }
+    .menu a{
+        padding: 10px;
+        text-decoration: none;
+    }
 }
