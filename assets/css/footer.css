@@ -5,7 +5,10 @@
     padding: 20px;
     background-color: rgb(240, 231, 231);
 }
-
+.text{
+    display: flex;
+    flex-wrap: nowrap;
+}
 .footer-menu a{
     padding: 30px;
 }
@@ -22,10 +25,17 @@
 
 
 
-
 @media screen and (min-width:768px) {
  .footer-menu{
     display: flex;
  }   
- 
+ .footer-menu a{
+    padding: 30;
+ }
+
+}
+@media screen  and (min-width:1200px) {
+    footer-menu a{
+        padding: 0px;
+    }
 }
