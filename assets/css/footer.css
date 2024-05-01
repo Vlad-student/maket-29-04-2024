@@ -1,0 +1,31 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(240, 231, 231);
+}
+
+.footer-menu a{
+    padding: 30px;
+}
+.footer-menu{
+    display: flex;
+    list-style: none;
+}
+
+.footer-social{
+    display: flex;
+    list-style: none;
+}
+
+
+
+
+
+@media screen and (min-width:768px) {
+ .footer-menu{
+    display: flex;
+ }   
+ 
+}

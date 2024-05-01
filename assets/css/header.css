@@ -11,6 +11,10 @@
     height: 29px;
     margin-left: 15px;
 }
+.burger:hover{
+    background-image: url(./../icons/x.svg);
+    background-repeat:no-repeat;
+}
 .logo{
     display: block;
     background-image: url(./../image/Логотип\ 1.svg);
@@ -29,13 +33,17 @@
     font-weight: bold;
     line-height: 98px;
 }
+.burger, .logo, .lang{
+    position: relative;
+    z-index: 999;
+}
 .menu{
-    /* display: none; */
-    display: flex;
+    display: none;
+    /* display: flex; */
     flex-direction: column;
     align-self: flex-start;
    list-style: none;
-   background-color: #0000ff44;
+   background-color: #ffffff99;
    position: fixed;
 top: 0;
 left: 0;
@@ -52,6 +60,11 @@ margin: 0;
     font-size: 32px;
     font-family: Roboto, sans-serif;
     padding-top: 120px;
+}
+
+.burger:hover~.menu{
+    
+    display: flex;
 }
 
 @media screen and (min-width:768px) {
