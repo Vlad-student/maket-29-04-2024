@@ -1,0 +1,62 @@
+main{
+    padding-left: 15px;
+}
+.title{
+font-weight: 900px;
+font-size: 32px;
+text-transform: uppercase;
+}
+
+.mobile-unicorn{
+display: block;
+margin: auto;
+padding: 80px 80px;
+}
+
+.content{
+display: flex;
+flex-direction: column;
+}
+
+.more{
+display: block;
+height: 120px;
+width: 120px;
+background-color: red;
+color: white;
+padding: 40px 10px;
+font-weight: 700;
+}
+
+.text{
+width: 50%;
+font-weight: 700;
+
+}
+
+.big-unicorn{
+    display: none;
+}
+
+
+
+
+
+@media screen and (min-width:768px) {
+    .mobile-unicorn{
+        display: none;}
+        .big-unicorn{
+            display: block;
+        }
+        .content{
+            flex-direction: row;
+            justify-content: space-around;
+        }
+        .more{
+            margin-right: 320px;
+        }
+}
+
+@media screen  and (min-width:1200px) {
+    
+}
