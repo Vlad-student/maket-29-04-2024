@@ -55,6 +55,10 @@ font-weight: 700;
         .more{
             margin-right: 320px;
         }
+        .text{
+            transform: translate(-250px);
+            width: 300px;
+        }
 }
 
 @media screen  and (min-width:1200px) {
