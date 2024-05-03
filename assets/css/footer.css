@@ -13,7 +13,7 @@
     padding: 30px;
 }
 .footer-menu{
-    display: flex;
+    display: none;
     list-style: none;
 }
 
