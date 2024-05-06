@@ -47,6 +47,7 @@ font-weight: 700;
         display: none;}
         .big-unicorn{
             display: block;
+            transform: translateY(-20px);
         }
         .content{
             flex-direction: row;
@@ -62,5 +63,21 @@ font-weight: 700;
 }
 
 @media screen  and (min-width:1200px) {
-    
+    .big-unicorn{
+        transform: translate(850px);
+        padding-bottom: 20px;
+    }
+    .title{
+        display: flex;
+        font-size: 60px;
+        transform: translate(80px);
+    }
+    .text{
+font-size: 20px;
+transform: translate(-40px, 600px);
+width: 80%;
+    }
+    .more{
+        transform: translate(170px, 600px);
+    }
 }
