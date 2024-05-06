@@ -1,5 +1,6 @@
 main{
     padding-left: 15px;
+    margin: 0;
 }
 .title{
 font-weight: 900px;
@@ -38,7 +39,9 @@ font-weight: 700;
     display: none;
 }
 
-
+.social{
+    list-style: none;
+}
 
 
 
@@ -79,5 +82,12 @@ width: 80%;
     }
     .more{
         transform: translate(170px, 600px);
+    }
+    .social{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        transform: translateY(-200px);
+        margin: 30px;
     }
 }
