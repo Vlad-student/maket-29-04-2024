@@ -32,7 +32,7 @@ font-weight: 700;
 .text{
 width: 50%;
 font-weight: 700;
-
+margin-top: 0;
 }
 
 .big-unicorn{
@@ -41,64 +41,70 @@ font-weight: 700;
 
 .social{
     list-style: none;
+    display: none;
 }
 
 
 
-@media screen and (min-width:576px) {
-    .social{
-        display: none;
-    }
-}
+
 
 @media screen and (min-width:768px) {
     .mobile-unicorn{
         display: none;}
         .big-unicorn{
             display: block;
-            transform: translate(30px ,-30px);
+            transform: translate(30px ,20px);
             margin: auto;
         }
         .content{
             flex-direction: row;
-            justify-content: space-around;
+           
         }
         .more{
-            margin-right: 400px;
+            /* margin-right: 400px; */
         }
         .text{
-            transform: translate(-300px);
+            margin-left: 50px;
             width: 300px;
         }
         .social{
             display: block;
-transform: translate(-30px,-600px);
+position: relative;
+left: -30px;
+top: -600px;
         }
 }
 
 @media screen  and (min-width:1200px) {
     .big-unicorn{
-        transform: translate(400px);
+        position: relative;
+        top: -450px;
+        right: -400px;
+        
         padding-bottom: 20px;
     }
     .title{
         display: flex;
         font-size: 60px;
-        transform: translate(80px);
+        position: relative;
+        right: -50px;
+    }
+    .content{
+        transform: translate(170px, 600px);
     }
     .text{
 font-size: 20px;
-transform: translate(-40px, 600px);
+/* transform: translate(-40px, 600px); */
 width: 80%;
     }
     .more{
-        transform: translate(170px, 600px);
+        /* transform: translate(170px, 600px); */
     }
     .social{
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-        transform: translateY(-200px);
+        transform: translateY(300px);
         margin: 30px;
     }
 }
