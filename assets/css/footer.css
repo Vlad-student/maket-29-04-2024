@@ -5,7 +5,7 @@
     padding: 20px;
     background-color: rgb(240, 231, 231);
 }
-.text{
+.text-footer{
     display: flex;
     flex-wrap: nowrap;
 }
