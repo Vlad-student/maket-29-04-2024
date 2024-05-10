@@ -75,7 +75,7 @@ justify-content: flex-start;
     }
     .map{
         position: relative;
-        right: -500px;
+        right: -450px;
         height: 750px;
         width: 65%;
     }
